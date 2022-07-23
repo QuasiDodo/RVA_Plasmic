@@ -11,6 +11,16 @@
       }
     },
     {
+      "name": "UnnamedStyleToken 2",
+      "type": "spacing",
+      "value": "590px",
+      "category": "spacing",
+      "meta": {
+        "projectId": "sSe8AoDiAW5DkmycE76RKb",
+        "id": "c_Aot784S"
+      }
+    },
+    {
       "name": "container-mixin",
       "type": "spacing",
       "value": "1680px",

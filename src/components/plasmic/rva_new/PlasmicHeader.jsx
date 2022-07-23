@@ -56,7 +56,11 @@ function PlasmicHeader__RenderFunc(props) {
           data-plasmic-override={overrides.row}
           className={classNames(projectcss.all, sty.row)}
         >
-          <div className={classNames(projectcss.all, sty.column__p6Kdu)}>
+          <div
+            data-plasmic-name={"column"}
+            data-plasmic-override={overrides.column}
+            className={classNames(projectcss.all, sty.column)}
+          >
             <p.PlasmicLink
               data-plasmic-name={"headerLeft"}
               data-plasmic-override={overrides.headerLeft}
@@ -74,7 +78,7 @@ function PlasmicHeader__RenderFunc(props) {
                 data-plasmic-override={overrides.img}
                 alt={""}
                 className={classNames(sty.img)}
-                displayHeight={"67px"}
+                displayHeight={"auto"}
                 displayMaxHeight={"74px"}
                 displayMaxWidth={"199px"}
                 displayMinHeight={"0"}
@@ -89,9 +93,7 @@ function PlasmicHeader__RenderFunc(props) {
                 }}
               />
             </p.PlasmicLink>
-          </div>
 
-          <div className={classNames(projectcss.all, sty.column__iOdoy)}>
             <div
               data-plasmic-name={"headerRight"}
               data-plasmic-override={overrides.headerRight}
@@ -116,27 +118,13 @@ function PlasmicHeader__RenderFunc(props) {
                   projectcss.all,
                   projectcss.a,
                   projectcss.__wab_text,
-                  sty.link___0A2Of
-                )}
-                component={Link}
-                href={"/stories"}
-                platform={"gatsby"}
-              >
-                {"Stories"}
-              </p.PlasmicLink>
-
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
                   sty.link__eaVg4
                 )}
                 component={Link}
                 href={"/about"}
                 platform={"gatsby"}
               >
-                {"About us"}
+                {"About"}
               </p.PlasmicLink>
 
               <p.PlasmicLink
@@ -150,7 +138,21 @@ function PlasmicHeader__RenderFunc(props) {
                 href={"/contact"}
                 platform={"gatsby"}
               >
-                {"Contact us"}
+                {"Contact"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link___0A2Of
+                )}
+                component={Link}
+                href={"/stories"}
+                platform={"gatsby"}
+              >
+                {"Stories"}
               </p.PlasmicLink>
             </div>
           </div>
@@ -161,9 +163,19 @@ function PlasmicHeader__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "container", "row", "headerLeft", "img", "headerRight"],
-  container: ["container", "row", "headerLeft", "img", "headerRight"],
-  row: ["row", "headerLeft", "img", "headerRight"],
+  root: [
+    "root",
+    "container",
+    "row",
+    "column",
+    "headerLeft",
+    "img",
+    "headerRight",
+  ],
+
+  container: ["container", "row", "column", "headerLeft", "img", "headerRight"],
+  row: ["row", "column", "headerLeft", "img", "headerRight"],
+  column: ["column", "headerLeft", "img", "headerRight"],
   headerLeft: ["headerLeft", "img"],
   img: ["img"],
   headerRight: ["headerRight"],
@@ -205,6 +217,7 @@ export const PlasmicHeader = Object.assign(
     // Helper components rendering sub-elements
     container: makeNodeComponent("container"),
     row: makeNodeComponent("row"),
+    column: makeNodeComponent("column"),
     headerLeft: makeNodeComponent("headerLeft"),
     img: makeNodeComponent("img"),
     headerRight: makeNodeComponent("headerRight"),

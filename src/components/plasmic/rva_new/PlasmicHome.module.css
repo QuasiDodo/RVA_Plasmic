@@ -1,17 +1,17 @@
-.root {
+.root2 {
   flex-direction: column;
   display: flex;
   position: relative;
   width: 100%;
   height: 100%;
-  background: url("./images/azHarbourBridgepng.png") left 50% top 0px / contain repeat-y
+  background: url("./images/azHarbourBridgepng.png") left 50% top 0px / contain no-repeat
       padding-box border-box scroll,
     #060829;
   min-width: 0;
   min-height: 0;
-  padding: 0px;
+  padding: 0px 0px 4px;
 }
-.root > :global(.__wab_flex-container) {
+.root2 > :global(.__wab_flex-container) {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
@@ -20,51 +20,57 @@
   margin-top: calc(0px - 0px);
   height: calc(100% + 0px);
 }
-.root > :global(.__wab_flex-container) > *,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.root > :global(.__wab_flex-container) > picture > img,
-.root > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
+.root2 > :global(.__wab_flex-container) > *,
+.root2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.root2 > :global(.__wab_flex-container) > picture > img,
+.root2 > :global(.__wab_flex-container) > :global(.__wab_slot) > picture > img {
   margin-top: 0px;
 }
 .header:global(.__wab_instance) {
   position: relative;
+  align-self: stretch;
 }
 .hero {
-  display: flex;
-  position: relative;
+  display: block;
+  position: absolute;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
   background: none;
+  margin-bottom: 0px;
+  left: 0px;
+  top: 0px;
+  align-self: center;
+  width: 100%;
+  z-index: 1;
+  height: auto;
   min-width: 0;
-  padding: 180px 20px;
 }
 @media (min-width: 0px) and (max-width: 767px) {
   .hero {
     padding: 30px 12px;
   }
 }
-.img__ab4Ic {
-  position: relative;
-  object-fit: contain;
-  max-width: 100%;
-  margin-bottom: 0px;
-  height: 665px;
-  align-self: center;
-  margin-top: 196px;
-  flex-shrink: 0;
+.img__aAnS {
+  position: absolute;
+  object-fit: scale-down;
+  left: 0%;
+  top: 0px;
+  object-position: center center;
+  z-index: 1;
+  bottom: auto;
+  width: 100%;
+  right: auto;
+  min-width: 0;
+  margin: auto;
 }
-.img__ab4Ic > picture > img {
-  object-fit: contain;
+.img__aAnS > picture > img {
+  object-fit: scale-down;
+  object-position: center center;
 }
-.img__ab4Ic > .__wab_img-spacer > img {
-  object-fit: contain;
-}
-.triangle:global(.__wab_instance) {
-  position: relative;
+.img__aAnS > .__wab_img-spacer > img {
+  object-fit: scale-down;
+  object-position: center center;
 }
 .companiesSection {
   position: relative;
@@ -217,12 +223,25 @@
 .img___0DcrR > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.ctaBottom:global(.__wab_instance) {
-  position: relative;
-  display: none;
-}
 .footer:global(.__wab_instance) {
-  position: relative;
-  align-self: flex-start;
+  position: absolute;
+  align-self: stretch;
+  margin-bottom: 0%;
+  margin-top: calc(0% + 0px) !important;
+  margin-right: 0%;
+  margin-left: 0%;
+  left: auto;
+  top: auto;
+  width: 100%;
+  z-index: 1;
+  order: 4;
+  right: auto;
+  bottom: 10px;
+  min-width: 0;
   display: flex;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .footer:global(.__wab_instance) {
+    margin-top: calc(0% + 0px) !important;
+  }
 }

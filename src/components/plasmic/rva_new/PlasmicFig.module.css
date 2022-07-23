@@ -4,8 +4,10 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: auto;
+  height: 332px;
   max-width: var(--token-uS9NrJFyRHuqWm);
   position: relative;
+  background: none;
+  margin-bottom: 0px;
   padding: var(--token-0gAp3qf1lz7uNu);
 }

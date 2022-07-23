@@ -17,8 +17,6 @@ import {
   deriveRenderOpts,
 } from "@plasmicapp/react-web"
 import Header from "../../Header" // plasmic-import: rlLZVswJyeOUp/component
-import Fig from "../../Fig" // plasmic-import: _DbnGlNkMg/component
-import CtaBottom from "../../CtaBottom" // plasmic-import: aZrFk0trqYG6jU/component
 import Footer from "../../Footer" // plasmic-import: aKMJC5Su_PgNb/component
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_rva_new.module.css" // plasmic-import: sSe8AoDiAW5DkmycE76RKb/projectcss
@@ -45,8 +43,8 @@ function PlasmicHome__RenderFunc(props) {
       <div className={projectcss.plasmic_page_wrapper}>
         <p.Stack
           as={"div"}
-          data-plasmic-name={"root"}
-          data-plasmic-override={overrides.root}
+          data-plasmic-name={"root2"}
+          data-plasmic-override={overrides.root2}
           data-plasmic-root={true}
           data-plasmic-for-node={forNode}
           hasGap={true}
@@ -56,7 +54,7 @@ function PlasmicHome__RenderFunc(props) {
             projectcss.plasmic_default_styles,
             projectcss.plasmic_mixins,
             projectcss.plasmic_tokens,
-            sty.root
+            sty.root2
           )}
         >
           <Header
@@ -73,13 +71,13 @@ function PlasmicHome__RenderFunc(props) {
             >
               <p.PlasmicImg
                 alt={""}
-                className={classNames(sty.img__ab4Ic)}
-                displayHeight={"665px"}
+                className={classNames(sty.img__aAnS)}
+                displayHeight={"auto"}
                 displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
+                displayMaxWidth={"none"}
                 displayMinHeight={"0"}
                 displayMinWidth={"0"}
-                displayWidth={"auto"}
+                displayWidth={"100%"}
                 loading={"lazy"}
                 src={{
                   src: rvaTriangle2PngZCIWyJrt,
@@ -87,12 +85,6 @@ function PlasmicHome__RenderFunc(props) {
                   fullHeight: 677,
                   aspectRatio: undefined,
                 }}
-              />
-
-              <Fig
-                data-plasmic-name={"triangle"}
-                data-plasmic-override={overrides.triangle}
-                className={classNames("__wab_instance", sty.triangle)}
               />
             </div>
           ) : null}
@@ -191,13 +183,6 @@ function PlasmicHome__RenderFunc(props) {
             </div>
           ) : null}
           {true ? (
-            <CtaBottom
-              data-plasmic-name={"ctaBottom"}
-              data-plasmic-override={overrides.ctaBottom}
-              className={classNames("__wab_instance", sty.ctaBottom)}
-            />
-          ) : null}
-          {true ? (
             <Footer
               data-plasmic-name={"footer"}
               data-plasmic-override={overrides.footer}
@@ -211,25 +196,21 @@ function PlasmicHome__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: [
-    "root",
+  root2: [
+    "root2",
     "header",
     "hero",
-    "triangle",
     "companiesSection",
     "container2",
     "h2",
-    "ctaBottom",
     "footer",
   ],
 
   header: ["header"],
-  hero: ["hero", "triangle"],
-  triangle: ["triangle"],
+  hero: ["hero"],
   companiesSection: ["companiesSection", "container2", "h2"],
   container2: ["container2", "h2"],
   h2: ["h2"],
-  ctaBottom: ["ctaBottom"],
   footer: ["footer"],
 }
 
@@ -254,7 +235,7 @@ function makeNodeComponent(nodeName) {
       forNode: nodeName,
     })
   }
-  if (nodeName === "root") {
+  if (nodeName === "root2") {
     func.displayName = "PlasmicHome"
   } else {
     func.displayName = `PlasmicHome.${nodeName}`
@@ -264,16 +245,14 @@ function makeNodeComponent(nodeName) {
 
 export const PlasmicHome = Object.assign(
   // Top-level PlasmicHome renders the root element
-  makeNodeComponent("root"),
+  makeNodeComponent("root2"),
   {
     // Helper components rendering sub-elements
     header: makeNodeComponent("header"),
     hero: makeNodeComponent("hero"),
-    triangle: makeNodeComponent("triangle"),
     companiesSection: makeNodeComponent("companiesSection"),
     container2: makeNodeComponent("container2"),
     h2: makeNodeComponent("h2"),
-    ctaBottom: makeNodeComponent("ctaBottom"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicHome
     internalVariantProps: PlasmicHome__VariantProps,

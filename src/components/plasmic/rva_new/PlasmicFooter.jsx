@@ -16,16 +16,13 @@ import {
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
-  ensureGlobalVariants,
 } from "@plasmicapp/react-web"
-import { useScreenVariants as useScreenVariantsxe8Uhzv7PeLJgW } from "./PlasmicGlobalVariant__Screen" // plasmic-import: XE8Uhzv7PeLJgW/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_rva_new.module.css" // plasmic-import: sSe8AoDiAW5DkmycE76RKb/projectcss
 import * as sty from "./PlasmicFooter.module.css" // plasmic-import: aKMJC5Su_PgNb/css
-import Icon3Icon from "./icons/PlasmicIcon__Icon3" // plasmic-import: ka4TjgsfLp_JAY/icon
-import Icon2Icon from "./icons/PlasmicIcon__Icon2" // plasmic-import: NfXNpzmLKjwmgA/icon
-import Icon28Icon from "./icons/PlasmicIcon__Icon28" // plasmic-import: zIRvI6W2zd5sf7/icon
 import IconIcon from "./icons/PlasmicIcon__Icon" // plasmic-import: A8bnkBjJqVCwJ9/icon
+import FacebookIconsvgIcon from "./icons/PlasmicIcon__FacebookIconsvg" // plasmic-import: uReSR94qZIhNBx/icon
+import LinkedinsvgIcon from "./icons/PlasmicIcon__Linkedinsvg" // plasmic-import: Fm08GCOPSM/icon
 
 export const PlasmicFooter__VariantProps = new Array()
 
@@ -36,10 +33,6 @@ function PlasmicFooter__RenderFunc(props) {
   const $ctx = ph.useDataEnv?.() || {}
   const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
   const $props = args
-  const globalVariants = ensureGlobalVariants({
-    screen: useScreenVariantsxe8Uhzv7PeLJgW(),
-  })
-
   return (
     <div
       data-plasmic-name={"root"}
@@ -55,331 +48,286 @@ function PlasmicFooter__RenderFunc(props) {
         sty.root
       )}
     >
-      <div className={classNames(projectcss.all, sty.freeBox___6O2Ha)}>
+      <p.Stack
+        as={"div"}
+        hasGap={true}
+        className={classNames(projectcss.all, sty.freeBox__ndNpz)}
+      >
+        {true ? (
+          <h3
+            data-plasmic-name={"header"}
+            data-plasmic-override={overrides.header}
+            className={classNames(
+              projectcss.all,
+              projectcss.h3,
+              projectcss.__wab_text,
+              sty.header
+            )}
+          >
+            <React.Fragment>
+              <React.Fragment>{""}</React.Fragment>
+              <span
+                className={"plasmic_default__all plasmic_default__span"}
+                style={{ color: "#FFFFFF" }}
+              >
+                {"Real Value Added Consulting"}
+              </span>
+              <React.Fragment>{""}</React.Fragment>
+            </React.Fragment>
+          </h3>
+        ) : null}
+
         <p.Stack
           as={"div"}
           hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__lV12)}
+          className={classNames(projectcss.all, sty.freeBox___1ELw7)}
         >
           <p.Stack
-            as={"div"}
+            as={p.PlasmicLink}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__quApM)}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.link__iNhcf
+            )}
+            component={Link}
+            platform={"gatsby"}
           >
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__dbrEt)}
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__tTqBp)}
+                role={"img"}
+              />
+            ) : null}
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text__ioiqe
+              )}
             >
-              <h3
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h3,
-                  projectcss.__wab_text,
-                  sty.h3__oi9Mp
-                )}
-              >
-                {"Company Name"}
-              </h3>
+              {"Services"}
+            </div>
 
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text___9VjjB
-                )}
-              >
-                <React.Fragment>
-                  <React.Fragment>
-                    {"This site proudly built in "}
-                  </React.Fragment>
-                  {
-                    <p.PlasmicLink
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.a,
-                        projectcss.__wab_text,
-                        projectcss.plasmic_default__inline,
-                        sty.link__znws4
-                      )}
-                      component={Link}
-                      href={"https://www.plasmic.app"}
-                      platform={"gatsby"}
-                    >
-                      {"Plasmic"}
-                    </p.PlasmicLink>
-                  }
-
-                  <React.Fragment>{"."}</React.Fragment>
-                </React.Fragment>
-              </div>
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__kxqNc
-                )}
-              >
-                {"Connect with us"}
-              </div>
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__zam8P)}
-              >
-                {true ? (
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.link__q5Dr
-                    )}
-                    component={Link}
-                    href={"#"}
-                    platform={"gatsby"}
-                    target={"_blank"}
-                  >
-                    <Icon3Icon
-                      className={classNames(projectcss.all, sty.svg__dfnzJ)}
-                      role={"img"}
-                    />
-                  </p.PlasmicLink>
-                ) : null}
-                {true ? (
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.link__a3OYg
-                    )}
-                    component={Link}
-                    href={"#"}
-                    platform={"gatsby"}
-                    target={"_blank"}
-                  >
-                    <Icon2Icon
-                      className={classNames(projectcss.all, sty.svg__zIdCo)}
-                      role={"img"}
-                    />
-                  </p.PlasmicLink>
-                ) : null}
-                {true ? (
-                  <p.PlasmicLink
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.a,
-                      sty.link__xBTy6
-                    )}
-                    component={Link}
-                    href={"#"}
-                    platform={"gatsby"}
-                    target={"_blank"}
-                  >
-                    <Icon28Icon
-                      className={classNames(projectcss.all, sty.svg__j6Ryd)}
-                      role={"img"}
-                    />
-                  </p.PlasmicLink>
-                ) : null}
-              </p.Stack>
-            </p.Stack>
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__eTvBx)}
+                role={"img"}
+              />
+            ) : null}
           </p.Stack>
 
           <p.Stack
-            as={"div"}
+            as={p.PlasmicLink}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox___0EyZr)}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.link__f9CjY
+            )}
+            component={Link}
+            platform={"gatsby"}
           >
-            <h3
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__jq9Ck)}
+                role={"img"}
+              />
+            ) : null}
+
+            <div
               className={classNames(
                 projectcss.all,
-                projectcss.h3,
                 projectcss.__wab_text,
-                sty.h3__n8378
+                sty.text__qvqPl
               )}
             >
-              {"Photography"}
-            </h3>
+              {"Stories"}
+            </div>
 
-            <p.Stack
-              as={p.PlasmicLink}
-              hasGap={true}
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                sty.link__iNhcf
-              )}
-              component={Link}
-              platform={"gatsby"}
-            >
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg__tTqBp)}
-                  role={"img"}
-                />
-              ) : null}
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__ioiqe
-                )}
-              >
-                {"Services"}
-              </div>
-
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg__eTvBx)}
-                  role={"img"}
-                />
-              ) : null}
-            </p.Stack>
-
-            <p.Stack
-              as={p.PlasmicLink}
-              hasGap={true}
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                sty.link__f9CjY
-              )}
-              component={Link}
-              platform={"gatsby"}
-            >
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg__jq9Ck)}
-                  role={"img"}
-                />
-              ) : null}
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__qvqPl
-                )}
-              >
-                {"Stories"}
-              </div>
-
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg___8T33)}
-                  role={"img"}
-                />
-              ) : null}
-            </p.Stack>
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg___8T33)}
+                role={"img"}
+              />
+            ) : null}
           </p.Stack>
 
           <p.Stack
-            as={"div"}
+            as={p.PlasmicLink}
             hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox__ndNpz)}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.link__kZEuU
+            )}
+            component={Link}
+            platform={"gatsby"}
           >
-            <h3
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__mOoOb)}
+                role={"img"}
+              />
+            ) : null}
+
+            <div
               className={classNames(
                 projectcss.all,
-                projectcss.h3,
                 projectcss.__wab_text,
-                sty.h3___4Gu4W
+                sty.text__i2Vm6
               )}
             >
-              {"Company"}
-            </h3>
+              {"About "}
+            </div>
 
-            <p.Stack
-              as={p.PlasmicLink}
-              hasGap={true}
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__yHoqb)}
+                role={"img"}
+              />
+            ) : null}
+          </p.Stack>
+
+          <p.Stack
+            as={p.PlasmicLink}
+            hasGap={true}
+            className={classNames(projectcss.all, projectcss.a, sty.link__hfHy)}
+            component={Link}
+            platform={"gatsby"}
+          >
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__vGt7N)}
+                role={"img"}
+              />
+            ) : null}
+
+            <div
               className={classNames(
                 projectcss.all,
-                projectcss.a,
-                sty.link__hfHy
+                projectcss.__wab_text,
+                sty.text__eMcJv
               )}
-              component={Link}
-              platform={"gatsby"}
             >
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg__vGt7N)}
-                  role={"img"}
-                />
-              ) : null}
+              {"Contact"}
+            </div>
 
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__eMcJv
-                )}
-              >
-                {"Contact us"}
-              </div>
-
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg__u1W6R)}
-                  role={"img"}
-                />
-              ) : null}
-            </p.Stack>
-
-            <p.Stack
-              as={p.PlasmicLink}
-              hasGap={true}
-              className={classNames(
-                projectcss.all,
-                projectcss.a,
-                sty.link__kZEuU
-              )}
-              component={Link}
-              platform={"gatsby"}
-            >
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg__mOoOb)}
-                  role={"img"}
-                />
-              ) : null}
-
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__i2Vm6
-                )}
-              >
-                {"About us"}
-              </div>
-
-              {false ? (
-                <IconIcon
-                  className={classNames(projectcss.all, sty.svg__yHoqb)}
-                  role={"img"}
-                />
-              ) : null}
-            </p.Stack>
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__u1W6R)}
+                role={"img"}
+              />
+            ) : null}
           </p.Stack>
         </p.Stack>
+      </p.Stack>
 
+      <p.Stack
+        as={"div"}
+        hasGap={true}
+        className={classNames(projectcss.all, sty.freeBox__zam8P)}
+      >
         {true ? (
-          <p.Stack
-            as={"div"}
-            hasGap={true}
-            className={classNames(projectcss.all, sty.freeBox___7FDqr)}
-          />
+          <p.PlasmicLink
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.link__a3OYg
+            )}
+            component={Link}
+            href={"https://www.facebook.com/RealValueAdded"}
+            platform={"gatsby"}
+            target={"_blank"}
+          >
+            <FacebookIconsvgIcon
+              className={classNames(projectcss.all, sty.svg__zIdCo)}
+              role={"img"}
+            />
+          </p.PlasmicLink>
         ) : null}
-      </div>
+        {true ? (
+          <p.PlasmicLink
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.link__xBTy6
+            )}
+            component={Link}
+            href={"https://www.linkedin.com/company/rvaconsulting"}
+            platform={"gatsby"}
+            target={"_blank"}
+          >
+            <LinkedinsvgIcon
+              className={classNames(projectcss.all, sty.svg__j6Ryd)}
+              role={"img"}
+            />
+          </p.PlasmicLink>
+        ) : null}
+
+        <p.PlasmicLink
+          className={classNames(
+            projectcss.all,
+            projectcss.a,
+            projectcss.__wab_text,
+            sty.link___9VjjB
+          )}
+          component={Link}
+          platform={"gatsby"}
+        >
+          <React.Fragment>
+            <React.Fragment>
+              {
+                "Copyright ©Real Value Added Consulting2022. All Rights Reserved. Use of this website is subject to our "
+              }
+            </React.Fragment>
+            {
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  projectcss.plasmic_default__inline,
+                  sty.link__tsky0
+                )}
+                component={Link}
+                href={"/disclaimer"}
+                platform={"gatsby"}
+              >
+                {"Terms of Use"}
+              </p.PlasmicLink>
+            }
+
+            <React.Fragment>{" and  "}</React.Fragment>
+            {
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  projectcss.plasmic_default__inline,
+                  sty.link__k4IJf
+                )}
+                component={Link}
+                href={"/privacy-policy"}
+                platform={"gatsby"}
+              >
+                {"Privacy Policy"}
+              </p.PlasmicLink>
+            }
+
+            <React.Fragment>{""}</React.Fragment>
+          </React.Fragment>
+        </p.PlasmicLink>
+      </p.Stack>
     </div>
   )
 }
 
 const PlasmicDescendants = {
-  root: ["root"],
+  root: ["root", "header"],
+  header: ["header"],
 }
 
 function makeNodeComponent(nodeName) {
@@ -416,6 +364,7 @@ export const PlasmicFooter = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    header: makeNodeComponent("header"),
     // Metadata about props expected for PlasmicFooter
     internalVariantProps: PlasmicFooter__VariantProps,
     internalArgProps: PlasmicFooter__ArgProps,
