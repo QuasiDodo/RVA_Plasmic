@@ -628,6 +628,19 @@
           "cssFilePath": "plasmic/rva_new/PlasmicNewPage.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "_DbnGlNkMg",
+          "name": "Fig",
+          "type": "managed",
+          "projectId": "sSe8AoDiAW5DkmycE76RKb",
+          "renderModuleFilePath": "plasmic/rva_new/PlasmicFig.jsx",
+          "importSpec": {
+            "modulePath": "Fig.jsx"
+          },
+          "cssFilePath": "plasmic/rva_new/PlasmicFig.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -1347,6 +1360,26 @@
           "id": "7BBlm-Smv",
           "name": "AZ harbour bridge.png",
           "filePath": "plasmic/rva_new/images/azHarbourBridgepng.png"
+        },
+        {
+          "id": "Txxs8mLWC",
+          "name": "RVA logo.png",
+          "filePath": "plasmic/rva_new/images/rvaLogopng.png"
+        },
+        {
+          "id": "gGIjkKH_n",
+          "name": "RVA triangle.png",
+          "filePath": "plasmic/rva_new/images/rvaTrianglepng.png"
+        },
+        {
+          "id": "C4DLkPaUY",
+          "name": "RVA triangle.png 2",
+          "filePath": "plasmic/rva_new/images/rvaTrianglepng2.png"
+        },
+        {
+          "id": "zC_IWyJRT",
+          "name": "RVA triangle2.png",
+          "filePath": "plasmic/rva_new/images/rvaTriangle2Png.png"
         }
       ],
       "indirect": false,

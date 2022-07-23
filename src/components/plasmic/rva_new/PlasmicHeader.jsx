@@ -20,7 +20,7 @@ import {
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_rva_new.module.css" // plasmic-import: sSe8AoDiAW5DkmycE76RKb/projectcss
 import * as sty from "./PlasmicHeader.module.css" // plasmic-import: rlLZVswJyeOUp/css
-import logoPlasmicNewsvgKUaeX2UqOoeJnM from "./images/logoPlasmicNewsvg.svg" // plasmic-import: KUaeX2UQOoeJnM/picture
+import rvaLogopngTxxs8MLwc from "./images/rvaLogopng.png" // plasmic-import: Txxs8mLWC/picture
 
 export const PlasmicHeader__VariantProps = new Array()
 
@@ -82,10 +82,10 @@ function PlasmicHeader__RenderFunc(props) {
                 displayWidth={"auto"}
                 loading={"lazy"}
                 src={{
-                  src: logoPlasmicNewsvgKUaeX2UqOoeJnM,
-                  fullWidth: 300,
-                  fullHeight: 113,
-                  aspectRatio: 2.662651,
+                  src: rvaLogopngTxxs8MLwc,
+                  fullWidth: 983,
+                  fullHeight: 197,
+                  aspectRatio: undefined,
                 }}
               />
             </p.PlasmicLink>

@@ -365,6 +365,14 @@ function PlasmicFooter__RenderFunc(props) {
             </p.Stack>
           </p.Stack>
         </p.Stack>
+
+        {true ? (
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox___7FDqr)}
+          />
+        ) : null}
       </div>
     </div>
   )
