@@ -24,13 +24,11 @@ export const PlasmicTestimonial__VariantProps = new Array()
 
 export const PlasmicTestimonial__ArgProps = new Array("children", "slot")
 
-export const defaultTestimonial__Args = {}
-
 function PlasmicTestimonial__RenderFunc(props) {
   const { variants, overrides, forNode } = props
-  const args = Object.assign({}, defaultTestimonial__Args, props.args)
-  const $props = args
   const $ctx = ph.useDataEnv?.() || {}
+  const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
+  const $props = args
   return (
     <p.Stack
       as={"div"}
@@ -117,12 +115,17 @@ const PlasmicDescendants = {
 
 function makeNodeComponent(nodeName) {
   const func = function (props) {
-    const { variants, args, overrides } = deriveRenderOpts(props, {
-      name: nodeName,
-      descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicTestimonial__ArgProps,
-      internalVariantPropNames: PlasmicTestimonial__VariantProps,
-    })
+    const { variants, args, overrides } = React.useMemo(
+      () =>
+        deriveRenderOpts(props, {
+          name: nodeName,
+          descendantNames: [...PlasmicDescendants[nodeName]],
+          internalArgPropNames: PlasmicTestimonial__ArgProps,
+          internalVariantPropNames: PlasmicTestimonial__VariantProps,
+        }),
+
+      [props, nodeName]
+    )
 
     return PlasmicTestimonial__RenderFunc({
       variants,

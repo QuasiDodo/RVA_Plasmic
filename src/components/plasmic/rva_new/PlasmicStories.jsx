@@ -36,13 +36,11 @@ export const PlasmicStories__VariantProps = new Array()
 
 export const PlasmicStories__ArgProps = new Array()
 
-export const defaultStories__Args = {}
-
 function PlasmicStories__RenderFunc(props) {
   const { variants, overrides, forNode } = props
-  const args = Object.assign({}, defaultStories__Args, props.args)
-  const $props = args
   const $ctx = ph.useDataEnv?.() || {}
+  const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
+  const $props = args
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsxe8Uhzv7PeLJgW(),
   })
@@ -385,12 +383,17 @@ const PlasmicDescendants = {
 
 function makeNodeComponent(nodeName) {
   const func = function (props) {
-    const { variants, args, overrides } = deriveRenderOpts(props, {
-      name: nodeName,
-      descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicStories__ArgProps,
-      internalVariantPropNames: PlasmicStories__VariantProps,
-    })
+    const { variants, args, overrides } = React.useMemo(
+      () =>
+        deriveRenderOpts(props, {
+          name: nodeName,
+          descendantNames: [...PlasmicDescendants[nodeName]],
+          internalArgPropNames: PlasmicStories__ArgProps,
+          internalVariantPropNames: PlasmicStories__VariantProps,
+        }),
+
+      [props, nodeName]
+    )
 
     return PlasmicStories__RenderFunc({
       variants,

@@ -33,13 +33,11 @@ export const PlasmicContactUs__VariantProps = new Array()
 
 export const PlasmicContactUs__ArgProps = new Array()
 
-export const defaultContactUs__Args = {}
-
 function PlasmicContactUs__RenderFunc(props) {
   const { variants, overrides, forNode } = props
-  const args = Object.assign({}, defaultContactUs__Args, props.args)
-  const $props = args
   const $ctx = ph.useDataEnv?.() || {}
+  const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
+  const $props = args
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsxe8Uhzv7PeLJgW(),
   })
@@ -577,12 +575,17 @@ const PlasmicDescendants = {
 
 function makeNodeComponent(nodeName) {
   const func = function (props) {
-    const { variants, args, overrides } = deriveRenderOpts(props, {
-      name: nodeName,
-      descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicContactUs__ArgProps,
-      internalVariantPropNames: PlasmicContactUs__VariantProps,
-    })
+    const { variants, args, overrides } = React.useMemo(
+      () =>
+        deriveRenderOpts(props, {
+          name: nodeName,
+          descendantNames: [...PlasmicDescendants[nodeName]],
+          internalArgPropNames: PlasmicContactUs__ArgProps,
+          internalVariantPropNames: PlasmicContactUs__VariantProps,
+        }),
+
+      [props, nodeName]
+    )
 
     return PlasmicContactUs__RenderFunc({
       variants,

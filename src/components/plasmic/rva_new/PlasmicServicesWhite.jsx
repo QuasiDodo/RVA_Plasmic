@@ -29,13 +29,11 @@ export const PlasmicServicesWhite__ArgProps = new Array(
   "slot2"
 )
 
-export const defaultServicesWhite__Args = {}
-
 function PlasmicServicesWhite__RenderFunc(props) {
   const { variants, overrides, forNode } = props
-  const args = Object.assign({}, defaultServicesWhite__Args, props.args)
-  const $props = args
   const $ctx = ph.useDataEnv?.() || {}
+  const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
+  const $props = args
   return (
     <p.Stack
       as={"div"}
@@ -99,12 +97,17 @@ const PlasmicDescendants = {
 
 function makeNodeComponent(nodeName) {
   const func = function (props) {
-    const { variants, args, overrides } = deriveRenderOpts(props, {
-      name: nodeName,
-      descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicServicesWhite__ArgProps,
-      internalVariantPropNames: PlasmicServicesWhite__VariantProps,
-    })
+    const { variants, args, overrides } = React.useMemo(
+      () =>
+        deriveRenderOpts(props, {
+          name: nodeName,
+          descendantNames: [...PlasmicDescendants[nodeName]],
+          internalArgPropNames: PlasmicServicesWhite__ArgProps,
+          internalVariantPropNames: PlasmicServicesWhite__VariantProps,
+        }),
+
+      [props, nodeName]
+    )
 
     return PlasmicServicesWhite__RenderFunc({
       variants,

@@ -27,13 +27,11 @@ export const PlasmicCaseStudiesWraper__VariantProps = new Array()
 
 export const PlasmicCaseStudiesWraper__ArgProps = new Array("children", "slot")
 
-export const defaultCaseStudiesWraper__Args = {}
-
 function PlasmicCaseStudiesWraper__RenderFunc(props) {
   const { variants, overrides, forNode } = props
-  const args = Object.assign({}, defaultCaseStudiesWraper__Args, props.args)
-  const $props = args
   const $ctx = ph.useDataEnv?.() || {}
+  const args = React.useMemo(() => Object.assign({}, props.args), [props.args])
+  const $props = args
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}
@@ -141,12 +139,17 @@ const PlasmicDescendants = {
 
 function makeNodeComponent(nodeName) {
   const func = function (props) {
-    const { variants, args, overrides } = deriveRenderOpts(props, {
-      name: nodeName,
-      descendantNames: [...PlasmicDescendants[nodeName]],
-      internalArgPropNames: PlasmicCaseStudiesWraper__ArgProps,
-      internalVariantPropNames: PlasmicCaseStudiesWraper__VariantProps,
-    })
+    const { variants, args, overrides } = React.useMemo(
+      () =>
+        deriveRenderOpts(props, {
+          name: nodeName,
+          descendantNames: [...PlasmicDescendants[nodeName]],
+          internalArgPropNames: PlasmicCaseStudiesWraper__ArgProps,
+          internalVariantPropNames: PlasmicCaseStudiesWraper__VariantProps,
+        }),
+
+      [props, nodeName]
+    )
 
     return PlasmicCaseStudiesWraper__RenderFunc({
       variants,
