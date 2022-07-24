@@ -244,6 +244,7 @@
   object-fit: cover;
   color: #05050599;
   flex-shrink: 0;
+  display: none;
 }
 .text__i2Vm6 {
   color: var(--token-WWBXYTGMjk8h79);
@@ -263,6 +264,7 @@
   object-fit: cover;
   color: #05050599;
   flex-shrink: 0;
+  display: none;
 }
 .link__hfHy {
   flex-direction: row;
@@ -314,6 +316,63 @@
   align-self: center;
 }
 .svg__u1W6R {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  color: #05050599;
+  flex-shrink: 0;
+}
+.link___5Q65U {
+  flex-direction: row;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+  display: flex;
+  cursor: pointer;
+  margin-right: 0px;
+  left: auto;
+  top: auto;
+  border-radius: 6px;
+  padding: 0px;
+  border: 1px solid transparent;
+}
+.link___5Q65U > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.link___5Q65U > :global(.__wab_flex-container) > *,
+.link___5Q65U > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.link___5Q65U > :global(.__wab_flex-container) > picture > img,
+.link___5Q65U
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-left: 8px;
+}
+.svg__jtH8T {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  object-fit: cover;
+  color: #05050599;
+  flex-shrink: 0;
+}
+.text___6EqAo {
+  color: var(--token-WWBXYTGMjk8h79);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: 400;
+  line-height: 26px;
+  align-self: center;
+}
+.svg__mzpAu {
   width: 24px;
   height: 24px;
   position: relative;

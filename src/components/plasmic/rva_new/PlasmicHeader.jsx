@@ -110,7 +110,7 @@ function PlasmicHeader__RenderFunc(props) {
                 href={"/Services"}
                 platform={"gatsby"}
               >
-                {"Services"}
+                {"What we do"}
               </p.PlasmicLink>
 
               <p.PlasmicLink
@@ -121,10 +121,24 @@ function PlasmicHeader__RenderFunc(props) {
                   sty.link__eaVg4
                 )}
                 component={Link}
-                href={"/about"}
+                href={"/WhyUs"}
                 platform={"gatsby"}
               >
-                {"About"}
+                {"Why us"}
+              </p.PlasmicLink>
+
+              <p.PlasmicLink
+                className={classNames(
+                  projectcss.all,
+                  projectcss.a,
+                  projectcss.__wab_text,
+                  sty.link___0A2Of
+                )}
+                component={Link}
+                href={"/OurTeam"}
+                platform={"gatsby"}
+              >
+                {"Stories"}
               </p.PlasmicLink>
 
               <p.PlasmicLink
@@ -139,20 +153,6 @@ function PlasmicHeader__RenderFunc(props) {
                 platform={"gatsby"}
               >
                 {"Contact"}
-              </p.PlasmicLink>
-
-              <p.PlasmicLink
-                className={classNames(
-                  projectcss.all,
-                  projectcss.a,
-                  projectcss.__wab_text,
-                  sty.link___0A2Of
-                )}
-                component={Link}
-                href={"/stories"}
-                platform={"gatsby"}
-              >
-                {"Stories"}
               </p.PlasmicLink>
             </div>
           </div>

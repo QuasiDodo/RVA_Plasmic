@@ -107,7 +107,7 @@ function PlasmicFooter__RenderFunc(props) {
                 sty.text__ioiqe
               )}
             >
-              {"Services"}
+              {"What we do"}
             </div>
 
             {false ? (
@@ -143,7 +143,7 @@ function PlasmicFooter__RenderFunc(props) {
                 sty.text__qvqPl
               )}
             >
-              {"Stories"}
+              {"About us"}
             </div>
 
             {false ? (
@@ -165,7 +165,7 @@ function PlasmicFooter__RenderFunc(props) {
             component={Link}
             platform={"gatsby"}
           >
-            {false ? (
+            {true ? (
               <IconIcon
                 className={classNames(projectcss.all, sty.svg__mOoOb)}
                 role={"img"}
@@ -179,10 +179,10 @@ function PlasmicFooter__RenderFunc(props) {
                 sty.text__i2Vm6
               )}
             >
-              {"About "}
+              {"Why us"}
             </div>
 
-            {false ? (
+            {true ? (
               <IconIcon
                 className={classNames(projectcss.all, sty.svg__yHoqb)}
                 role={"img"}
@@ -211,12 +211,48 @@ function PlasmicFooter__RenderFunc(props) {
                 sty.text__eMcJv
               )}
             >
-              {"Contact"}
+              {"Our team"}
             </div>
 
             {false ? (
               <IconIcon
                 className={classNames(projectcss.all, sty.svg__u1W6R)}
+                role={"img"}
+              />
+            ) : null}
+          </p.Stack>
+
+          <p.Stack
+            as={p.PlasmicLink}
+            hasGap={true}
+            className={classNames(
+              projectcss.all,
+              projectcss.a,
+              sty.link___5Q65U
+            )}
+            component={Link}
+            platform={"gatsby"}
+          >
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__jtH8T)}
+                role={"img"}
+              />
+            ) : null}
+
+            <div
+              className={classNames(
+                projectcss.all,
+                projectcss.__wab_text,
+                sty.text___6EqAo
+              )}
+            >
+              {"Contact us"}
+            </div>
+
+            {false ? (
+              <IconIcon
+                className={classNames(projectcss.all, sty.svg__mzpAu)}
                 role={"img"}
               />
             ) : null}

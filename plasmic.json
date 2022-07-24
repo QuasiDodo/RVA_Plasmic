@@ -69,19 +69,6 @@
           "componentType": "component"
         },
         {
-          "id": "gwfbOx-ppiR7yy",
-          "name": "Stories",
-          "type": "managed",
-          "projectId": "sSe8AoDiAW5DkmycE76RKb",
-          "renderModuleFilePath": "plasmic/rva_new/PlasmicStories.jsx",
-          "importSpec": {
-            "modulePath": "../pages/stories.jsx"
-          },
-          "cssFilePath": "plasmic/rva_new/PlasmicStories.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "w9bR5wayqCyrZI",
           "name": "ContactUs",
           "type": "managed",
@@ -192,7 +179,7 @@
           "projectId": "sSe8AoDiAW5DkmycE76RKb",
           "renderModuleFilePath": "plasmic/rva_new/PlasmicWhyUs.jsx",
           "importSpec": {
-            "modulePath": "../pages/about.jsx"
+            "modulePath": "../pages/WhyUs.jsx"
           },
           "cssFilePath": "plasmic/rva_new/PlasmicWhyUs.module.css",
           "scheme": "blackbox",
@@ -641,6 +628,19 @@
           "cssFilePath": "plasmic/rva_new/PlasmicFig.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "gwfbOx-ppiR7yy",
+          "name": "OurTeam",
+          "type": "managed",
+          "projectId": "sSe8AoDiAW5DkmycE76RKb",
+          "renderModuleFilePath": "plasmic/rva_new/PlasmicOurTeam.jsx",
+          "importSpec": {
+            "modulePath": "../pages/OurTeam.jsx"
+          },
+          "cssFilePath": "plasmic/rva_new/PlasmicOurTeam.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
