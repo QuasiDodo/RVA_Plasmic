@@ -62,7 +62,7 @@ function PlasmicCtaBottom__RenderFunc(props) {
             sty.h2
           )}
         >
-          {"Make a call to action."}
+          {"Contact us"}
         </h2>
 
         <Button

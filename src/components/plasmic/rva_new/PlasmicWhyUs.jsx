@@ -12,20 +12,21 @@ import * as React from "react"
 import * as p from "@plasmicapp/react-web"
 import * as ph from "@plasmicapp/host"
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
   ensureGlobalVariants,
 } from "@plasmicapp/react-web"
 import Header from "../../Header" // plasmic-import: rlLZVswJyeOUp/component
+import TextInput from "../../TextInput" // plasmic-import: 8d2n861ybhR/component
 import CtaBottom from "../../CtaBottom" // plasmic-import: aZrFk0trqYG6jU/component
 import Footer from "../../Footer" // plasmic-import: aKMJC5Su_PgNb/component
 import { useScreenVariants as useScreenVariantsxe8Uhzv7PeLJgW } from "./PlasmicGlobalVariant__Screen" // plasmic-import: XE8Uhzv7PeLJgW/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_rva_new.module.css" // plasmic-import: sSe8AoDiAW5DkmycE76RKb/projectcss
 import * as sty from "./PlasmicWhyUs.module.css" // plasmic-import: EgVjH3shVXgCZy/css
-import portrait32048431920JpgHHUldzYQyO73T from "./images/portrait32048431920Jpg.jpeg" // plasmic-import: hH-UldzYQyO73t/picture
+import cogsjpgYt6Exh67K from "./images/cogsjpg.jpeg" // plasmic-import: YT6exh67K/picture
+import valuePriceScalepngXLb8To3Wt from "./images/valuePriceScalepng.png" // plasmic-import: XLb8to3Wt/picture
 
 export const PlasmicWhyUs__VariantProps = new Array()
 
@@ -87,14 +88,22 @@ function PlasmicWhyUs__RenderFunc(props) {
                   sty.h1
                 )}
               >
-                {"About Us"}
+                {"Why us"}
               </h1>
             </div>
           </div>
 
-          <section className={classNames(projectcss.all, sty.section__sqAor)}>
+          <section
+            data-plasmic-name={"section"}
+            data-plasmic-override={overrides.section}
+            className={classNames(projectcss.all, sty.section)}
+          >
             <div className={classNames(projectcss.all, sty.freeBox__eu1Qn)}>
-              <div className={classNames(projectcss.all, sty.columns__g1VeZ)}>
+              <div
+                data-plasmic-name={"columns"}
+                data-plasmic-override={overrides.columns}
+                className={classNames(projectcss.all, sty.columns)}
+              >
                 <div className={classNames(projectcss.all, sty.column__oUaYi)}>
                   <p.Stack
                     as={"div"}
@@ -109,7 +118,7 @@ function PlasmicWhyUs__RenderFunc(props) {
                         sty.h2__o2KnL
                       )}
                     >
-                      {"Our Founder"}
+                      {"We are practicioners"}
                     </h2>
 
                     <div
@@ -120,7 +129,7 @@ function PlasmicWhyUs__RenderFunc(props) {
                       )}
                     >
                       {
-                        "Consectetur a adipiscing sagittis sed proin libero himenaeos ornare adipiscing suscipit leo vestibulum facilisi consequat nisi nisi adipiscing habitant facilisis suspendisse hac integer eget quam facilisis sem placerat fames."
+                        "We have a combination of consulting and line management experience"
                       }
                     </div>
 
@@ -132,7 +141,7 @@ function PlasmicWhyUs__RenderFunc(props) {
                       )}
                     >
                       {
-                        "Consectetur a adipiscing sagittis sed proin libero himenaeos ornare adipiscing suscipit leo vestibulum facilisi consequat nisi nisi adipiscing habitant facilisis suspendisse hac integer eget quam facilisis sem placerat fames."
+                        "We intimately understand the business levers and do hit the ground running\n\nWe have a pragmatic approach and an obsession about focusing on value\n\nWe offer great value\n\nWe are more cost effective than global/major consulting firms\n\nWe offer substantial senior team involvement in projects execution\n\nAbility – and price point – to deliver client value for both strategic and implementation engagements\n"
                       }
                     </div>
                   </p.Stack>
@@ -150,148 +159,41 @@ function PlasmicWhyUs__RenderFunc(props) {
                     displayWidth={"100%"}
                     loading={"lazy"}
                     src={{
-                      src: portrait32048431920JpgHHUldzYQyO73T,
-                      fullWidth: 1920,
-                      fullHeight: 1280,
+                      src: cogsjpgYt6Exh67K,
+                      fullWidth: 5655,
+                      fullHeight: 3775,
                       aspectRatio: undefined,
                     }}
                   />
                 </div>
               </div>
             </div>
-          </section>
 
-          <section className={classNames(projectcss.all, sty.section__snSqv)}>
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__iAokq)}
-            >
-              <div className={classNames(projectcss.all, sty.freeBox__ih45B)}>
-                {true ? (
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__gcMoX)}
-                  >
-                    <h2
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.h2,
-                        projectcss.__wab_text,
-                        sty.h2___0G17Q
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly")
-                        ? "Why Choose Us"
-                        : "Why Choose Us"}
-                    </h2>
+            <TextInput
+              data-plasmic-name={"textInput"}
+              data-plasmic-override={overrides.textInput}
+              className={classNames("__wab_instance", sty.textInput)}
+            />
 
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(
-                        projectcss.all,
-                        sty.columns___4Sovl
-                      )}
-                    >
-                      <div
-                        className={classNames(projectcss.all, sty.column__vGYi)}
-                      >
-                        <p.Stack
-                          as={"div"}
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox___0E5Ih
-                          )}
-                        >
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__fVgi8
-                            )}
-                          >
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3___4LJrt
-                              )}
-                            >
-                              {"Our History"}
-                            </h3>
-
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__ukTu
-                              )}
-                            >
-                              {
-                                "Consectetur a adipiscing sagittis sed proin libero himenaeos ornare adipiscing suscipit leo vestibulum facilisi consequat nisi nisi adipiscing habitant facilisis suspendisse hac integer eget quam facilisis sem placerat fames. Consectetur a adipiscing sagittis sed proin libero himenaeos ornare adipiscing suscipit leo vestibulum facilisi consequat nisi nisi adipiscing habitant facilisis suspendisse hac integer eget quam facilisis sem placerat fames."
-                              }
-                            </div>
-                          </p.Stack>
-                        </p.Stack>
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__mz8NG
-                        )}
-                      >
-                        <p.Stack
-                          as={"div"}
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__qtKSw
-                          )}
-                        >
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__lBWwV
-                            )}
-                          >
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__oTYbf
-                              )}
-                            >
-                              {"Founder Bio"}
-                            </h3>
-
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__pbIhh
-                              )}
-                            >
-                              {
-                                "Consectetur a adipiscing sagittis sed proin libero himenaeos ornare adipiscing suscipit leo vestibulum facilisi consequat nisi nisi adipiscing habitant facilisis suspendisse hac integer eget quam facilisis sem placerat fames. Consectetur a adipiscing sagittis sed proin libero himenaeos ornare adipiscing suscipit leo vestibulum facilisi consequat nisi nisi adipiscing habitant facilisis suspendisse hac integer eget quam facilisis sem placerat fames."
-                              }
-                            </div>
-                          </p.Stack>
-                        </p.Stack>
-                      </div>
-                    </p.Stack>
-                  </p.Stack>
-                ) : null}
-              </div>
-            </p.Stack>
+            <div className={classNames(projectcss.all, sty.freeBox__fuJm2)}>
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__s9CRf)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"100%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: valuePriceScalepngXLb8To3Wt,
+                  fullWidth: 613,
+                  fullHeight: 352,
+                  aspectRatio: undefined,
+                }}
+              />
+            </div>
           </section>
 
           <div
@@ -406,6 +308,10 @@ const PlasmicDescendants = {
     "header",
     "pageBanerSection",
     "h1",
+    "section",
+    "columns",
+    "textInput",
+    "textbox",
     "companiesSection",
     "container2",
     "ctaBottom",
@@ -415,6 +321,9 @@ const PlasmicDescendants = {
   header: ["header"],
   pageBanerSection: ["pageBanerSection", "h1"],
   h1: ["h1"],
+  section: ["section", "columns", "textInput", "textbox"],
+  columns: ["columns"],
+  textInput: ["textInput", "textbox"],
   companiesSection: ["companiesSection", "container2"],
   container2: ["container2"],
   ctaBottom: ["ctaBottom"],
@@ -458,6 +367,9 @@ export const PlasmicWhyUs = Object.assign(
     header: makeNodeComponent("header"),
     pageBanerSection: makeNodeComponent("pageBanerSection"),
     h1: makeNodeComponent("h1"),
+    section: makeNodeComponent("section"),
+    columns: makeNodeComponent("columns"),
+    textInput: makeNodeComponent("textInput"),
     companiesSection: makeNodeComponent("companiesSection"),
     container2: makeNodeComponent("container2"),
     ctaBottom: makeNodeComponent("ctaBottom"),

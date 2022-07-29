@@ -1380,6 +1380,21 @@
           "id": "zC_IWyJRT",
           "name": "RVA triangle2.png",
           "filePath": "plasmic/rva_new/images/rvaTriangle2Png.png"
+        },
+        {
+          "id": "q4U_CJLmQ",
+          "name": "AZ_003.jpg",
+          "filePath": "plasmic/rva_new/images/az003Jpg.jpeg"
+        },
+        {
+          "id": "YT6exh67K",
+          "name": "Cogs.jpg",
+          "filePath": "plasmic/rva_new/images/cogsjpg.jpeg"
+        },
+        {
+          "id": "XLb8to3Wt",
+          "name": "Value Price scale.png",
+          "filePath": "plasmic/rva_new/images/valuePriceScalepng.png"
         }
       ],
       "indirect": false,

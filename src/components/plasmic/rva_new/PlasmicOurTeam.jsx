@@ -19,18 +19,15 @@ import {
 } from "@plasmicapp/react-web"
 import Header from "../../Header" // plasmic-import: rlLZVswJyeOUp/component
 import CaseStudiesWraper from "../../CaseStudiesWraper" // plasmic-import: 8-mbWFXVtuiyeU/component
+import Button from "../../Button" // plasmic-import: AI4dzLfJKZOBy/component
 import CtaBottom from "../../CtaBottom" // plasmic-import: aZrFk0trqYG6jU/component
 import Footer from "../../Footer" // plasmic-import: aKMJC5Su_PgNb/component
 import { useScreenVariants as useScreenVariantsxe8Uhzv7PeLJgW } from "./PlasmicGlobalVariant__Screen" // plasmic-import: XE8Uhzv7PeLJgW/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_rva_new.module.css" // plasmic-import: sSe8AoDiAW5DkmycE76RKb/projectcss
 import * as sty from "./PlasmicOurTeam.module.css" // plasmic-import: gwfbOx-ppiR7yy/css
+import az003JpgQ4UCjLmQ from "./images/az003Jpg.jpeg" // plasmic-import: q4U_CJLmQ/picture
 import girls18285391920JpgZd237MRhxc0C7B from "./images/girls18285391920Jpg.jpeg" // plasmic-import: zd237mRhxc0c7B/picture
-import woman32879561920JpgE5H1EGp7Yidpwp from "./images/woman32879561920Jpg.jpeg" // plasmic-import: E5H1eGp7yidpwp/picture
-import girl18484541920JpgOFyq9IWGp5UgNb from "./images/girl18484541920Jpg.jpeg" // plasmic-import: oFYQ9iWGp5UgNb/picture
-import girl23664381920JpgRfrxgNvc3QWdYi from "./images/girl23664381920Jpg.jpeg" // plasmic-import: rfrxgNvc3QWdYI/picture
-import woman31165871920JpgBUzljUSlpw6BAm from "./images/woman31165871920Jpg.jpeg" // plasmic-import: bUzljUSlpw6bAm/picture
-import girl17750351920Jpg97K8Wi06ZSp4Se from "./images/girl17750351920Jpg.jpeg" // plasmic-import: 97K8wi06zSp4Se/picture
 
 export const PlasmicOurTeam__VariantProps = new Array()
 
@@ -92,7 +89,7 @@ function PlasmicOurTeam__RenderFunc(props) {
                   sty.h1
                 )}
               >
-                {"Stories"}
+                {"Our teAM"}
               </h1>
             </div>
           </div>
@@ -128,7 +125,69 @@ function PlasmicOurTeam__RenderFunc(props) {
                             "__wab_instance",
                             sty.caseStudiesWraper___5UBwq
                           )}
-                        />
+                          slot={
+                            <React.Fragment>
+                              <h3
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.h3,
+                                  projectcss.__wab_text,
+                                  sty.h3__kf0As
+                                )}
+                              >
+                                {"Andrea Zannier"}
+                              </h3>
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__uuR8F
+                                )}
+                              >
+                                {
+                                  "Andrea has worked on transformational projects with clients based in Australia, Asia-Pacific and Europe"
+                                }
+                              </div>
+
+                              <Button
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.button__idPs2
+                                )}
+                                color={"blackCoffee"}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__hs3Ik
+                                  )}
+                                >
+                                  {"Read More"}
+                                </div>
+                              </Button>
+                            </React.Fragment>
+                          }
+                        >
+                          <p.PlasmicImg
+                            alt={""}
+                            className={classNames(sty.img___0CrgT)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"615px"}
+                            loading={"lazy"}
+                            src={{
+                              src: az003JpgQ4UCjLmQ,
+                              fullWidth: 4178,
+                              fullHeight: 4178,
+                              aspectRatio: undefined,
+                            }}
+                          />
+                        </CaseStudiesWraper>
                       </div>
 
                       <div
@@ -142,6 +201,50 @@ function PlasmicOurTeam__RenderFunc(props) {
                             "__wab_instance",
                             sty.caseStudiesWraper__eVul
                           )}
+                          slot={
+                            <React.Fragment>
+                              <h3
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.h3,
+                                  projectcss.__wab_text,
+                                  sty.h3__qpRof
+                                )}
+                              >
+                                {"Thileepan Kailasanathan - TK"}
+                              </h3>
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__k1RZx
+                                )}
+                              >
+                                {
+                                  "TK is a multi-skilled finance executive with global experience in Risk, Analytics and Operations"
+                                }
+                              </div>
+
+                              <Button
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.button__sBrn
+                                )}
+                                color={"blackCoffee"}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.__wab_text,
+                                    sty.text__xvCxz
+                                  )}
+                                >
+                                  {"Read More"}
+                                </div>
+                              </Button>
+                            </React.Fragment>
+                          }
                         >
                           <p.PlasmicImg
                             alt={""}
@@ -157,180 +260,6 @@ function PlasmicOurTeam__RenderFunc(props) {
                               src: girls18285391920JpgZd237MRhxc0C7B,
                               fullWidth: 1920,
                               fullHeight: 1280,
-                              aspectRatio: undefined,
-                            }}
-                          />
-                        </CaseStudiesWraper>
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column___1TZm
-                        )}
-                      >
-                        <CaseStudiesWraper
-                          className={classNames(
-                            "__wab_instance",
-                            sty.caseStudiesWraper__qrXev
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__ipNWq)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"auto"}
-                            loading={"lazy"}
-                            src={{
-                              src: woman32879561920JpgE5H1EGp7Yidpwp,
-                              fullWidth: 1920,
-                              fullHeight: 1280,
-                              aspectRatio: undefined,
-                            }}
-                          />
-                        </CaseStudiesWraper>
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__sw69N
-                        )}
-                      >
-                        <CaseStudiesWraper
-                          className={classNames(
-                            "__wab_instance",
-                            sty.caseStudiesWraper__frHQv
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img___2Nms)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"auto"}
-                            loading={"lazy"}
-                            src={{
-                              src: girl18484541920JpgOFyq9IWGp5UgNb,
-                              fullWidth: 1920,
-                              fullHeight: 1279,
-                              aspectRatio: undefined,
-                            }}
-                          />
-                        </CaseStudiesWraper>
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column___2NueV
-                        )}
-                      >
-                        <CaseStudiesWraper
-                          className={classNames(
-                            "__wab_instance",
-                            sty.caseStudiesWraper__nGaO
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__gdESh)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"auto"}
-                            loading={"lazy"}
-                            src={{
-                              src: girl23664381920JpgRfrxgNvc3QWdYi,
-                              fullWidth: 1920,
-                              fullHeight: 1280,
-                              aspectRatio: undefined,
-                            }}
-                          />
-                        </CaseStudiesWraper>
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__gsPwb
-                        )}
-                      >
-                        <CaseStudiesWraper
-                          className={classNames(
-                            "__wab_instance",
-                            sty.caseStudiesWraper___0RAoK
-                          )}
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__l3Sb2
-                        )}
-                      >
-                        <CaseStudiesWraper
-                          className={classNames(
-                            "__wab_instance",
-                            sty.caseStudiesWraper___6TSlB
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__v8Gl)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"auto"}
-                            loading={"lazy"}
-                            src={{
-                              src: woman31165871920JpgBUzljUSlpw6BAm,
-                              fullWidth: 1920,
-                              fullHeight: 1279,
-                              aspectRatio: undefined,
-                            }}
-                          />
-                        </CaseStudiesWraper>
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__aGy6X
-                        )}
-                      >
-                        <CaseStudiesWraper
-                          className={classNames(
-                            "__wab_instance",
-                            sty.caseStudiesWraper___83Kly
-                          )}
-                        >
-                          <p.PlasmicImg
-                            alt={""}
-                            className={classNames(sty.img__zBbrh)}
-                            displayHeight={"auto"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"auto"}
-                            loading={"lazy"}
-                            src={{
-                              src: girl17750351920Jpg97K8Wi06ZSp4Se,
-                              fullWidth: 1920,
-                              fullHeight: 1191,
                               aspectRatio: undefined,
                             }}
                           />

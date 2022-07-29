@@ -87,7 +87,7 @@ function PlasmicWhatWeDo__RenderFunc(props) {
                   sty.h1
                 )}
               >
-                {"Services"}
+                {"wHAT WE DO"}
               </h1>
             </div>
           </div>
@@ -126,8 +126,11 @@ function PlasmicWhatWeDo__RenderFunc(props) {
                                 sty.h3__cyl0M
                               )}
                             >
-                              {"Services main"}
+                              {"Ney business and product launch"}
                             </h3>
+                          }
+                          slot2={
+                            "Our deep end to end lending experience, coupled with a very pragmatic approach, makes us an ideal partner to drive the launch of new products and businesses"
                           }
                         />
                       </div>
@@ -152,8 +155,11 @@ function PlasmicWhatWeDo__RenderFunc(props) {
                                 sty.h3__wfNFz
                               )}
                             >
-                              {"Services main"}
+                              {"Strategy review"}
                             </h3>
+                          }
+                          slot2={
+                            "We have assisted a number of listed companies in crafting their new strategy and revamping their strategy during phases of market transformation."
                           }
                         />
                       </div>
@@ -178,8 +184,11 @@ function PlasmicWhatWeDo__RenderFunc(props) {
                                 sty.h3__i5VKw
                               )}
                             >
-                              {"Services main"}
+                              {"Craft and implement growth strategies\n"}
                             </h3>
+                          }
+                          slot2={
+                            "Taking a customer-centric perspective, we identify new segments of growth joint with an analytically-driven distribution model"
                           }
                         />
                       </div>
@@ -204,8 +213,11 @@ function PlasmicWhatWeDo__RenderFunc(props) {
                                 sty.h3__qSq2W
                               )}
                             >
-                              {"Services main"}
+                              {"Analytics for business decisions"}
                             </h3>
+                          }
+                          slot2={
+                            "We inform pivotal business decisions extracting insights from the available data utilising advanced analytical techniques"
                           }
                         />
                       </div>
@@ -230,8 +242,11 @@ function PlasmicWhatWeDo__RenderFunc(props) {
                                 sty.h3__uxdSa
                               )}
                             >
-                              {"Services main"}
+                              {"Transform, streamline and digitise"}
                             </h3>
+                          }
+                          slot2={
+                            "We lead transformation programs  streamlining processes and using new lean technology to automate and digitise processing"
                           }
                         />
                       </div>
@@ -256,8 +271,11 @@ function PlasmicWhatWeDo__RenderFunc(props) {
                                 sty.h3__oqXzi
                               )}
                             >
-                              {"Services main"}
+                              {"Risk management"}
                             </h3>
+                          }
+                          slot2={
+                            "We have significant senior line management experience in Financial and Non-Financial Risk Management within Banking and Lending"
                           }
                         />
                       </div>
