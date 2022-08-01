@@ -99,6 +99,9 @@
   cursor: pointer;
   left: auto;
   top: auto;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -157,6 +160,9 @@
   cursor: pointer;
   left: auto;
   top: auto;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -216,6 +222,9 @@
   cursor: pointer;
   left: auto;
   top: auto;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -277,6 +286,9 @@
   margin-right: 0px;
   left: auto;
   top: auto;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -334,6 +346,9 @@
   margin-right: 0px;
   left: auto;
   top: auto;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;

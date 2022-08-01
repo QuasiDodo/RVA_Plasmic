@@ -28,6 +28,7 @@ import * as projectcss from "./plasmic_rva_new.module.css" // plasmic-import: sS
 import * as sty from "./PlasmicOurTeam.module.css" // plasmic-import: gwfbOx-ppiR7yy/css
 import az003JpgQ4UCjLmQ from "./images/az003Jpg.jpeg" // plasmic-import: q4U_CJLmQ/picture
 import girls18285391920JpgZd237MRhxc0C7B from "./images/girls18285391920Jpg.jpeg" // plasmic-import: zd237mRhxc0c7B/picture
+import az006JpgWpj3VfTqz from "./images/az006Jpg.jpeg" // plasmic-import: Wpj3VfTQZ/picture
 
 export const PlasmicOurTeam__VariantProps = new Array()
 
@@ -109,10 +110,8 @@ function PlasmicOurTeam__RenderFunc(props) {
                   >
                     <p.Stack
                       as={"div"}
-                      data-plasmic-name={"columns"}
-                      data-plasmic-override={overrides.columns}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.columns)}
+                      className={classNames(projectcss.all, sty.columns__m5Ehw)}
                     >
                       <div
                         className={classNames(
@@ -272,6 +271,96 @@ function PlasmicOurTeam__RenderFunc(props) {
             </div>
           </section>
 
+          <div className={classNames(projectcss.all, sty.freeBox__k1Eu1)}>
+            <div className={classNames(projectcss.all, sty.columns___27Ih)}>
+              <div className={classNames(projectcss.all, sty.column__ntOp5)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___0Xcv)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: az006JpgWpj3VfTqz,
+                    fullWidth: 3907,
+                    fullHeight: 3907,
+                    aspectRatio: undefined,
+                  }}
+                />
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__v58OI
+                  )}
+                >
+                  {"Andrea Zannier - Managing Director"}
+                </div>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.column___4GQfq)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__nZkvu
+                  )}
+                >
+                  {
+                    "Andrea has over 10 years of strategy consulting experience at partner level with major global consulting firms and extensive executive experience with top Australian and European financial institutions:\n14 years in consulting: Oliver Wyman, McKinsey, BCG and Mastercard\n8 years in line management: Macquarie Bank, Citibank and SmartGroup\n2 years in M&A: launching and developing a M&A boutique in London\n\nAndrea is currently involved in a number of start-ups in fintech and bio-tech, and is a supporter of the Charlie Teo Foundation\n\nAndrea holds a MBA from The Kellogg Graduate School of Management and a degree in Industrial Economics and Strategy from Universita' Commerciale Luigi Bocconi\n"
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className={classNames(projectcss.all, sty.freeBox__s2Tgx)}>
+            <div className={classNames(projectcss.all, sty.columns__v2Iyf)}>
+              <div className={classNames(projectcss.all, sty.column__aDs3I)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__wxXn)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                />
+
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__nuTbe
+                  )}
+                >
+                  {"Thileepan Kailasanathan - Senior Director"}
+                </div>
+              </div>
+
+              <div className={classNames(projectcss.all, sty.column___9Vyr1)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__zXZuI
+                  )}
+                >
+                  {
+                    "TK has worked on risk, strategy and operational projects with clients across the world, including Australia, India, South Korea, USA, Canada, Chile, South Africa, UK and ROI. His career encompasses line management and consulting across Risk, IT and Strategy:\n16 years in risk line management, incl. as Global Head of Retail Risk: Macquarie Bank, Nedbank, Capital One\n5 years in IT line management and consulting in South Africa: Telsaf Data, I-Net, M-Web\n7 years in consulting globally: Monitor, and various boutique firms\n\nTK is currently involved in a number of start-ups in fintech, runs a successful retail business and provides consulting and “Virtual CRO” services to consumer and SME lenders\n\nTK holds MBA and Electronic Engineering degrees from University of Cape Town and is certified by the Global Association of Risk Professionals as a Financial Risk Manager (FRM). He has held various IT certifications, including Microsoft Certified Systems Engineer and a Diploma in Project Management.\n"
+                  }
+                </div>
+              </div>
+            </div>
+          </div>
+
           <CtaBottom
             data-plasmic-name={"ctaBottom"}
             data-plasmic-override={overrides.ctaBottom}
@@ -296,7 +385,6 @@ const PlasmicDescendants = {
     "pageBanerSection",
     "h1",
     "section",
-    "columns",
     "ctaBottom",
     "footer",
   ],
@@ -304,8 +392,7 @@ const PlasmicDescendants = {
   header: ["header"],
   pageBanerSection: ["pageBanerSection", "h1"],
   h1: ["h1"],
-  section: ["section", "columns"],
-  columns: ["columns"],
+  section: ["section"],
   ctaBottom: ["ctaBottom"],
   footer: ["footer"],
 }
@@ -348,7 +435,6 @@ export const PlasmicOurTeam = Object.assign(
     pageBanerSection: makeNodeComponent("pageBanerSection"),
     h1: makeNodeComponent("h1"),
     section: makeNodeComponent("section"),
-    columns: makeNodeComponent("columns"),
     ctaBottom: makeNodeComponent("ctaBottom"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicOurTeam

@@ -222,6 +222,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
@@ -287,6 +290,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
@@ -352,6 +358,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
@@ -417,6 +426,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
@@ -482,6 +494,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
@@ -572,6 +587,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 10px 16px;
   border: 1px solid transparent;
@@ -2368,6 +2386,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -2429,6 +2450,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -2490,6 +2514,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -2597,6 +2624,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -2658,6 +2688,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -2719,6 +2752,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;
@@ -2780,6 +2816,9 @@
   transition-timing-function: ease-out;
   display: flex;
   cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-timing-function: ease-out;
+  -webkit-transition-duration: 0.5s;
   border-radius: 6px;
   padding: 0px;
   border: 1px solid transparent;

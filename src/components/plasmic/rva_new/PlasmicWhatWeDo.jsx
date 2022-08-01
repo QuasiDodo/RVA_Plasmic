@@ -12,7 +12,6 @@ import * as React from "react"
 import * as p from "@plasmicapp/react-web"
 import * as ph from "@plasmicapp/host"
 import {
-  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -25,7 +24,12 @@ import { useScreenVariants as useScreenVariantsxe8Uhzv7PeLJgW } from "./PlasmicG
 import "@plasmicapp/react-web/lib/plasmic.css"
 import * as projectcss from "./plasmic_rva_new.module.css" // plasmic-import: sSe8AoDiAW5DkmycE76RKb/projectcss
 import * as sty from "./PlasmicWhatWeDo.module.css" // plasmic-import: 6BXtrSevg1h6js/css
-import woman32879561920JpgE5H1EGp7Yidpwp from "./images/woman32879561920Jpg.jpeg" // plasmic-import: E5H1eGp7yidpwp/picture
+import leaves7194981JpgJtx9MHb from "./images/leaves7194981Jpg.jpeg" // plasmic-import: _JTX-9mHb/picture
+import goldSilverChessChessBoardGameBusinessMetaphorLeadershipConceptjpgEqdqyQex5 from "./images/goldSilverChessChessBoardGameBusinessMetaphorLeadershipConceptjpg.jpeg" // plasmic-import: eqdqyQEX5/picture
+import businessConceptSideViewWomanBuildingUpTowerFromWoodenBlocksjpgCHmOb6Ior from "./images/businessConceptSideViewWomanBuildingUpTowerFromWoodenBlocksjpg.jpeg" // plasmic-import: CHmOB6IOR/picture
+import a2BHighpngZZbVfuKq from "./images/a2BHighpng.png" // plasmic-import: z_zbVfuKQ/picture
+import technologyG800018Ba31920JpgKQi3MisXo from "./images/technologyG800018Ba31920Jpg.jpeg" // plasmic-import: kQI3misXO/picture
+import riskpng2N9FlmMI from "./images/riskpng.png" // plasmic-import: 2n9FlmM-i/picture
 
 export const PlasmicWhatWeDo__VariantProps = new Array()
 
@@ -92,725 +96,415 @@ function PlasmicWhatWeDo__RenderFunc(props) {
             </div>
           </div>
 
-          <section className={classNames(projectcss.all, sty.section__hBd2K)}>
+          <section
+            data-plasmic-name={"section"}
+            data-plasmic-override={overrides.section}
+            className={classNames(projectcss.all, sty.section)}
+          >
             <div className={classNames(projectcss.all, sty.freeBox__rnTT)}>
+              {true ? (
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__w7RnU)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.columns__iy5Ev)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.column___2Kegg)}
+                    >
+                      <ServicesWhite
+                        className={classNames(
+                          "__wab_instance",
+                          sty.servicesWhite__rGd6D
+                        )}
+                        slot={
+                          <h3
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h3,
+                              projectcss.__wab_text,
+                              sty.h3__cyl0M
+                            )}
+                          >
+                            {"New business and product launch"}
+                          </h3>
+                        }
+                        slot2={
+                          "Our deep end to end lending experience, coupled with a very pragmatic approach, makes us an ideal partner to drive the launch of new products and businesses"
+                        }
+                      />
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column__ikN4H)}
+                    >
+                      <ServicesWhite
+                        className={classNames(
+                          "__wab_instance",
+                          sty.servicesWhite__wUvVs
+                        )}
+                        slot={
+                          <h3
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h3,
+                              projectcss.__wab_text,
+                              sty.h3__wfNFz
+                            )}
+                          >
+                            {"Strategy review"}
+                          </h3>
+                        }
+                        slot2={
+                          "We have assisted a number of listed companies in crafting their new strategy and revamping their strategy during phases of market transformation."
+                        }
+                      />
+                    </div>
+
+                    <div
+                      className={classNames(projectcss.all, sty.column__w8Q2L)}
+                    >
+                      <ServicesWhite
+                        className={classNames(
+                          "__wab_instance",
+                          sty.servicesWhite__fu9Jr
+                        )}
+                        slot={
+                          <h3
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h3,
+                              projectcss.__wab_text,
+                              sty.h3__i5VKw
+                            )}
+                          >
+                            {"Transform, restructure, manage change"}
+                          </h3>
+                        }
+                        slot2={
+                          "We lead transformational programs aimed at reducing the cost base, reorganising teams and align team accountability to profit levers"
+                        }
+                      />
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+              ) : null}
+
               <div className={classNames(projectcss.all, sty.freeBox__dtBcc)}>
-                {true ? (
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__w7RnU)}
+                <div className={classNames(projectcss.all, sty.columns__vS5UA)}>
+                  <div
+                    className={classNames(projectcss.all, sty.column__krE2S)}
                   >
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.columns__iy5Ev)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column___2Kegg
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__rGd6D
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__cyl0M
-                              )}
-                            >
-                              {"Ney business and product launch"}
-                            </h3>
-                          }
-                          slot2={
-                            "Our deep end to end lending experience, coupled with a very pragmatic approach, makes us an ideal partner to drive the launch of new products and businesses"
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__ikN4H
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__wUvVs
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__wfNFz
-                              )}
-                            >
-                              {"Strategy review"}
-                            </h3>
-                          }
-                          slot2={
-                            "We have assisted a number of listed companies in crafting their new strategy and revamping their strategy during phases of market transformation."
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__w8Q2L
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__fu9Jr
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__i5VKw
-                              )}
-                            >
-                              {"Craft and implement growth strategies\n"}
-                            </h3>
-                          }
-                          slot2={
-                            "Taking a customer-centric perspective, we identify new segments of growth joint with an analytically-driven distribution model"
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__oOo3J
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__fW0So
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__qSq2W
-                              )}
-                            >
-                              {"Analytics for business decisions"}
-                            </h3>
-                          }
-                          slot2={
-                            "We inform pivotal business decisions extracting insights from the available data utilising advanced analytical techniques"
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__krE2S
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__sqJ9Y
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__uxdSa
-                              )}
-                            >
-                              {"Transform, streamline and digitise"}
-                            </h3>
-                          }
-                          slot2={
-                            "We lead transformation programs  streamlining processes and using new lean technology to automate and digitise processing"
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__lhW3O
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__ibope
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__oqXzi
-                              )}
-                            >
-                              {"Risk management"}
-                            </h3>
-                          }
-                          slot2={
-                            "We have significant senior line management experience in Financial and Non-Financial Risk Management within Banking and Lending"
-                          }
-                        />
-                      </div>
-                    </p.Stack>
-                  </p.Stack>
-                ) : null}
-              </div>
-            </div>
-          </section>
-
-          <section className={classNames(projectcss.all, sty.section__fntra)}>
-            <h2
-              className={classNames(
-                projectcss.all,
-                projectcss.h2,
-                projectcss.__wab_text,
-                sty.h2__mXfRq
-              )}
-            >
-              {hasVariant(globalVariants, "screen", "mobileOnly")
-                ? "Why Choose Us"
-                : "Our process"}
-            </h2>
-
-            <div className={classNames(projectcss.all, sty.freeBox__agmef)}>
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.columns__vgOMl)}
-              >
-                <div className={classNames(projectcss.all, sty.column__ud34O)}>
-                  <ServicesWhite
-                    className={classNames(
-                      "__wab_instance",
-                      sty.servicesWhite___6RDV
-                    )}
-                    slot={
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__iPv7U
-                        )}
-                      >
-                        {"Services main"}
-                      </h3>
-                    }
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__mjGbF)}>
-                  <ServicesWhite
-                    className={classNames(
-                      "__wab_instance",
-                      sty.servicesWhite__wYtpw
-                    )}
-                    slot={
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__jE3BJ
-                        )}
-                      >
-                        {"Services main"}
-                      </h3>
-                    }
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__lsg8W)}>
-                  <ServicesWhite
-                    className={classNames(
-                      "__wab_instance",
-                      sty.servicesWhite__qBwHd
-                    )}
-                    slot={
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__vamV
-                        )}
-                      >
-                        {"Services main"}
-                      </h3>
-                    }
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__uUtG)}>
-                  <ServicesWhite
-                    className={classNames(
-                      "__wab_instance",
-                      sty.servicesWhite__hNp63
-                    )}
-                    slot={
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__w6QwO
-                        )}
-                      >
-                        {"Services main"}
-                      </h3>
-                    }
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__gHywc)}>
-                  <ServicesWhite
-                    className={classNames(
-                      "__wab_instance",
-                      sty.servicesWhite__sxyTt
-                    )}
-                    slot={
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__ahAb2
-                        )}
-                      >
-                        {"Services main"}
-                      </h3>
-                    }
-                  />
-                </div>
-
-                <div className={classNames(projectcss.all, sty.column__lyTlI)}>
-                  <ServicesWhite
-                    className={classNames(
-                      "__wab_instance",
-                      sty.servicesWhite__cY7JC
-                    )}
-                    slot={
-                      <h3
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.h3,
-                          projectcss.__wab_text,
-                          sty.h3__d1T8A
-                        )}
-                      >
-                        {"Services main"}
-                      </h3>
-                    }
-                  />
-                </div>
-              </p.Stack>
-            </div>
-          </section>
-
-          <section className={classNames(projectcss.all, sty.section__wBuuj)}>
-            <div className={classNames(projectcss.all, sty.freeBox___4T7A)}>
-              <div className={classNames(projectcss.all, sty.freeBox__rHuq2)}>
-                {true ? (
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__nKc41)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.columns__awmg3)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column___2HuaM
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__kfY7Z
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__jehEm
-                              )}
-                            >
-                              {"Services main"}
-                            </h3>
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__ycAh1
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__xhZq1
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__rsg8I
-                              )}
-                            >
-                              {"Services main"}
-                            </h3>
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__frikl
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__uns65
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__fhNyG
-                              )}
-                            >
-                              {"Services main"}
-                            </h3>
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column___5YdWz
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__a239T
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3___0Xrd
-                              )}
-                            >
-                              {"Services main"}
-                            </h3>
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__is3Uu
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__rvfJz
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__oRgO
-                              )}
-                            >
-                              {"Services main"}
-                            </h3>
-                          }
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__n9VjQ
-                        )}
-                      >
-                        <ServicesWhite
-                          className={classNames(
-                            "__wab_instance",
-                            sty.servicesWhite__b6Gl
-                          )}
-                          slot={
-                            <h3
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.h3,
-                                projectcss.__wab_text,
-                                sty.h3__gVrJ
-                              )}
-                            >
-                              {"Services main"}
-                            </h3>
-                          }
-                        />
-                      </div>
-                    </p.Stack>
-                  </p.Stack>
-                ) : null}
-              </div>
-            </div>
-          </section>
-
-          <section className={classNames(projectcss.all, sty.section__gMtel)}>
-            <div className={classNames(projectcss.all, sty.freeBox__tlQUm)}>
-              <div className={classNames(projectcss.all, sty.freeBox__xrpEb)}>
-                {true ? (
-                  <p.Stack
-                    as={"div"}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.freeBox__qoB1Q)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.columns__wcLx)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__b9XpV
-                        )}
-                      >
-                        <p.PlasmicImg
-                          data-plasmic-name={"img"}
-                          data-plasmic-override={overrides.img}
-                          alt={""}
-                          className={classNames(sty.img)}
-                          displayHeight={"100%"}
-                          displayMaxHeight={"none"}
-                          displayMaxWidth={"100%"}
-                          displayMinHeight={"0"}
-                          displayMinWidth={"0"}
-                          displayWidth={"100%"}
-                          loading={"lazy"}
-                          src={{
-                            src: woman32879561920JpgE5H1EGp7Yidpwp,
-                            fullWidth: 1920,
-                            fullHeight: 1280,
-                            aspectRatio: undefined,
-                          }}
-                        />
-                      </div>
-
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.column__ojXjw
-                        )}
-                      >
-                        <p.Stack
-                          as={"div"}
-                          hasGap={true}
+                    <ServicesWhite
+                      className={classNames(
+                        "__wab_instance",
+                        sty.servicesWhite__sqJ9Y
+                      )}
+                      slot={
+                        <h3
                           className={classNames(
                             projectcss.all,
-                            sty.freeBox___0Ca5V
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__uxdSa
                           )}
                         >
-                          <h2
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h2,
-                              projectcss.__wab_text,
-                              sty.h2__g8Wjr
-                            )}
-                          >
-                            {"Why Choose Us"}
-                          </h2>
+                          {"Streamline and digitise"}
+                        </h3>
+                      }
+                      slot2={
+                        "We lead streamlining of processes and use new lean technology to automate and digitise operations and user experience"
+                      }
+                    />
+                  </div>
 
-                          <div
-                            data-plasmic-name={"text"}
-                            data-plasmic-override={overrides.text}
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text
-                            )}
-                          >
-                            {
-                              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam"
-                            }
-                          </div>
+                  <div
+                    className={classNames(projectcss.all, sty.column__oOo3J)}
+                  >
+                    <ServicesWhite
+                      className={classNames(
+                        "__wab_instance",
+                        sty.servicesWhite__fW0So
+                      )}
+                      slot={
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__qSq2W
+                          )}
+                        >
+                          {"Analytics for business decisions"}
+                        </h3>
+                      }
+                      slot2={
+                        "We inform pivotal business decisions extracting insights from the available data utilising advanced analytical techniques"
+                      }
+                    />
+                  </div>
 
-                          <p.Stack
-                            as={"div"}
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.columns__fLoaI
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__ddNl
-                              )}
-                            >
-                              <ServicesWhite
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.servicesWhite__tKcXe
-                                )}
-                                slot={
-                                  <h3
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h3,
-                                      projectcss.__wab_text,
-                                      sty.h3__skv9P
-                                    )}
-                                  >
-                                    {"Services main"}
-                                  </h3>
-                                }
-                              />
-                            </div>
-
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__tyu3G
-                              )}
-                            >
-                              <ServicesWhite
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.servicesWhite__k3Dxq
-                                )}
-                                slot={
-                                  <h3
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h3,
-                                      projectcss.__wab_text,
-                                      sty.h3__poAi4
-                                    )}
-                                  >
-                                    {"Services main"}
-                                  </h3>
-                                }
-                              />
-                            </div>
-
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__zdv9D
-                              )}
-                            >
-                              <ServicesWhite
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.servicesWhite___029Kx
-                                )}
-                                slot={
-                                  <h3
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h3,
-                                      projectcss.__wab_text,
-                                      sty.h3__rfI68
-                                    )}
-                                  >
-                                    {"Services main"}
-                                  </h3>
-                                }
-                              />
-                            </div>
-
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.column__a35Hj
-                              )}
-                            >
-                              <ServicesWhite
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.servicesWhite__ri81S
-                                )}
-                                slot={
-                                  <h3
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h3,
-                                      projectcss.__wab_text,
-                                      sty.h3__wpk42
-                                    )}
-                                  >
-                                    {"Services main"}
-                                  </h3>
-                                }
-                              />
-                            </div>
-                          </p.Stack>
-                        </p.Stack>
-                      </div>
-                    </p.Stack>
-                  </p.Stack>
-                ) : null}
+                  <div
+                    className={classNames(projectcss.all, sty.column__lhW3O)}
+                  >
+                    <ServicesWhite
+                      className={classNames(
+                        "__wab_instance",
+                        sty.servicesWhite__ibope
+                      )}
+                      slot={
+                        <h3
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.h3,
+                            projectcss.__wab_text,
+                            sty.h3__oqXzi
+                          )}
+                        >
+                          {"Risk management"}
+                        </h3>
+                      }
+                      slot2={
+                        "We have significant senior line management experience in Financial and Non-Financial Risk Management within Banking and Lending"
+                      }
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </section>
+
+          <div className={classNames(projectcss.all, sty.freeBox__eNde6)}>
+            <div className={classNames(projectcss.all, sty.columns__dRmx4)}>
+              <div className={classNames(projectcss.all, sty.column__sJ3A2)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__i2Uo7)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"auto"}
+                  loading={"lazy"}
+                  src={{
+                    src: leaves7194981JpgJtx9MHb,
+                    fullWidth: 6240,
+                    fullHeight: 4160,
+                    aspectRatio: undefined,
+                  }}
+                />
+              </div>
+
+              <div className={classNames(projectcss.all, sty.column__cjldu)}>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__n6Ata
+                  )}
+                >
+                  {
+                    "New business and product launch\n\nWe have led or assisted the development & launch of several new businesses and products, often in record time & exceeding targets, while building sustainable internal capabilities\n\nCredit card business\n\nNon-prime lending business\n\nAuto lending product\n\nFully digital business lending product\n\nBuy Now Pay Later"
+                  }
+                </div>
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.freeBox__zwJ7H)}>
+              <div className={classNames(projectcss.all, sty.columns__eG0Ny)}>
+                <div className={classNames(projectcss.all, sty.column__ux8N)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__wXml8
+                    )}
+                  >
+                    {
+                      "Strategy review\n\nWe have assisted a number of listed companies in crafting their new strategy and revamping their strategy during phases of market transformation.\n\nNeo-bank\n\nDomestic payment provider\n\nAuto lender\n\nLending mortgage insurer\n\n"
+                    }
+                  </div>
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__vgfmR)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__jUm6J)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: goldSilverChessChessBoardGameBusinessMetaphorLeadershipConceptjpgEqdqyQex5,
+                      fullWidth: 5977,
+                      fullHeight: 3977,
+                      aspectRatio: undefined,
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.freeBox__wcXJo)}>
+              <div className={classNames(projectcss.all, sty.columns__zszXa)}>
+                <div className={classNames(projectcss.all, sty.column__p5LgJ)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__fWqVd)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: businessConceptSideViewWomanBuildingUpTowerFromWoodenBlocksjpgCHmOb6Ior,
+                      fullWidth: 6121,
+                      fullHeight: 4344,
+                      aspectRatio: undefined,
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column___5USCj)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fIgaI
+                    )}
+                  >
+                    {
+                      "Transform, restructure, manage change\n\nRestructured retail banking division to increase efficiency\n\nImplemented new organisation design following merger of a payment player\n\nRevamped group Program Management Office structure, processes and governance for wealth and banking player\n\n\n"
+                    }
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.freeBox__iixB)}>
+              <div className={classNames(projectcss.all, sty.columns__rv24H)}>
+                <div className={classNames(projectcss.all, sty.column__wwgYs)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__gwYqq
+                    )}
+                  >
+                    {
+                      "Streamline and digitise\n\nWe leverage API and automation to simplify and streamline processes delivering a better customer experience and drastically reducing cost base and turnaround time:\n\nStreamlined account opening and management process following multiple acquisitions for a financial services provider\n\nRestructured credit decision process for business lending division of a major bank reducing rework by more than 80% and decreasing average turnaround time significantly\n\nImplemented automated underwriting for lenders mortgage insurance product\n\nFully digitised account opening and credit decision for a business lender, including automating the ingestion of accounting packages data\n"
+                    }
+                  </div>
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column___4A5B)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__js3I3)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: a2BHighpngZZbVfuKq,
+                      fullWidth: 1661,
+                      fullHeight: 1115,
+                      aspectRatio: undefined,
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.freeBox__ayY4)}>
+              <div className={classNames(projectcss.all, sty.columns__w790Z)}>
+                <div className={classNames(projectcss.all, sty.column__d1Ypk)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__qNsPh)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: technologyG800018Ba31920JpgKQi3MisXo,
+                      fullWidth: 1920,
+                      fullHeight: 961,
+                      aspectRatio: undefined,
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__cGaWs)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__ra8B
+                    )}
+                  >
+                    {
+                      "Analytics for busienss decisions\n\nWe enable our clients to achieve their data science & automation aspirations while addressing resourcing, data and knowledge gaps\n\nWe have assisted clients from the initial identification of the essential data, creating data lakes, analytical and predictive models and user-friendly reporting tools\n\nWe have deployed advanced analytical models, including marketing response, new and existing customer underwriting, collections and capital models\n\nWe have implemented multiple monitoring and reporting tools to enable executive decisions based on facts and focused on the key business variables\n\nWe have installed robotic and offshoring capabilities to scale up in the short time efficient analytical capabilities"
+                    }
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className={classNames(projectcss.all, sty.freeBox__wr9Nm)}>
+              <div className={classNames(projectcss.all, sty.columns__qeAsh)}>
+                <div className={classNames(projectcss.all, sty.column__dlxwQ)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__g9XcA
+                    )}
+                  >
+                    {
+                      "Risk management\n'\n'We have extensive line management experience in Financial and Non-Financial Risk Management within Banking and Lending\n\nWe have formulated credit policies for new products, or refinement of existing policies due to regulatory, product or market changes\n\nFor automated retail products, we have built operational risk controls into workflows and systems\n\nSet up and optimised risk and governance frameworks, including staffing structures\n\n"
+                    }
+                  </div>
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column__aqKu6)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__ckkll)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: riskpng2N9FlmMI,
+                      fullWidth: 1280,
+                      fullHeight: 720,
+                      aspectRatio: undefined,
+                    }}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
 
           <Footer
             data-plasmic-name={"footer"}
@@ -824,12 +518,11 @@ function PlasmicWhatWeDo__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "header", "pageBanerSection", "h1", "img", "text", "footer"],
+  root: ["root", "header", "pageBanerSection", "h1", "section", "footer"],
   header: ["header"],
   pageBanerSection: ["pageBanerSection", "h1"],
   h1: ["h1"],
-  img: ["img"],
-  text: ["text"],
+  section: ["section"],
   footer: ["footer"],
 }
 
@@ -870,8 +563,7 @@ export const PlasmicWhatWeDo = Object.assign(
     header: makeNodeComponent("header"),
     pageBanerSection: makeNodeComponent("pageBanerSection"),
     h1: makeNodeComponent("h1"),
-    img: makeNodeComponent("img"),
-    text: makeNodeComponent("text"),
+    section: makeNodeComponent("section"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicWhatWeDo
     internalVariantProps: PlasmicWhatWeDo__VariantProps,

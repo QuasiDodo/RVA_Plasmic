@@ -641,6 +641,19 @@
           "cssFilePath": "plasmic/rva_new/PlasmicOurTeam.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "gnX8DPADyQ",
+          "name": "Home2",
+          "type": "managed",
+          "projectId": "sSe8AoDiAW5DkmycE76RKb",
+          "renderModuleFilePath": "plasmic/rva_new/PlasmicHome2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/-2.jsx"
+          },
+          "cssFilePath": "plasmic/rva_new/PlasmicHome2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -1395,6 +1408,56 @@
           "id": "XLb8to3Wt",
           "name": "Value Price scale.png",
           "filePath": "plasmic/rva_new/images/valuePriceScalepng.png"
+        },
+        {
+          "id": "Wpj3VfTQZ",
+          "name": "AZ_006.jpg",
+          "filePath": "plasmic/rva_new/images/az006Jpg.jpeg"
+        },
+        {
+          "id": "_JTX-9mHb",
+          "name": "leaves-7194981.jpg",
+          "filePath": "plasmic/rva_new/images/leaves7194981Jpg.jpeg"
+        },
+        {
+          "id": "eqdqyQEX5",
+          "name": "gold-silver-chess-chess-board-game-business-metaphor-leadership-concept.jpg",
+          "filePath": "plasmic/rva_new/images/goldSilverChessChessBoardGameBusinessMetaphorLeadershipConceptjpg.jpeg"
+        },
+        {
+          "id": "CHmOB6IOR",
+          "name": "business-concept-side-view-woman-building-up-tower-from-wooden-blocks.jpg",
+          "filePath": "plasmic/rva_new/images/businessConceptSideViewWomanBuildingUpTowerFromWoodenBlocksjpg.jpeg"
+        },
+        {
+          "id": "EwyWH8iNx",
+          "name": "A to B.png",
+          "filePath": "plasmic/rva_new/images/aToBpng.png"
+        },
+        {
+          "id": "HUSd-19Pi",
+          "name": "Analytics.png",
+          "filePath": "plasmic/rva_new/images/analyticspng.png"
+        },
+        {
+          "id": "kQI3misXO",
+          "name": "technology-g800018ba3_1920.jpg",
+          "filePath": "plasmic/rva_new/images/technologyG800018Ba31920Jpg.jpeg"
+        },
+        {
+          "id": "E3KxPx4-h",
+          "name": "A 2 B hi res.png",
+          "filePath": "plasmic/rva_new/images/a2BHiRespng.png"
+        },
+        {
+          "id": "z_zbVfuKQ",
+          "name": "A 2 B high.png",
+          "filePath": "plasmic/rva_new/images/a2BHighpng.png"
+        },
+        {
+          "id": "2n9FlmM-i",
+          "name": "Risk.png",
+          "filePath": "plasmic/rva_new/images/riskpng.png"
         }
       ],
       "indirect": false,

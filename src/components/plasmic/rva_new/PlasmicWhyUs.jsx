@@ -99,11 +99,7 @@ function PlasmicWhyUs__RenderFunc(props) {
             className={classNames(projectcss.all, sty.section)}
           >
             <div className={classNames(projectcss.all, sty.freeBox__eu1Qn)}>
-              <div
-                data-plasmic-name={"columns"}
-                data-plasmic-override={overrides.columns}
-                className={classNames(projectcss.all, sty.columns)}
-              >
+              <div className={classNames(projectcss.all, sty.columns__g1VeZ)}>
                 <div className={classNames(projectcss.all, sty.column__oUaYi)}>
                   <p.Stack
                     as={"div"}
@@ -111,11 +107,13 @@ function PlasmicWhyUs__RenderFunc(props) {
                     className={classNames(projectcss.all, sty.freeBox__aXbkT)}
                   >
                     <h2
+                      data-plasmic-name={"h2"}
+                      data-plasmic-override={overrides.h2}
                       className={classNames(
                         projectcss.all,
                         projectcss.h2,
                         projectcss.__wab_text,
-                        sty.h2__o2KnL
+                        sty.h2
                       )}
                     >
                       {"We are practicioners"}
@@ -141,7 +139,7 @@ function PlasmicWhyUs__RenderFunc(props) {
                       )}
                     >
                       {
-                        "We intimately understand the business levers and do hit the ground running\n\nWe have a pragmatic approach and an obsession about focusing on value\n\nWe offer great value\n\nWe are more cost effective than global/major consulting firms\n\nWe offer substantial senior team involvement in projects execution\n\nAbility – and price point – to deliver client value for both strategic and implementation engagements\n"
+                        "We intimately understand the business levers and make things happen\n\nWe have a pragmatic approach to decision making and test and learn\n\nWe assist on the strategy definition but also are involved in delivering and implementing solutions\n\nWe identify capability gaps and mentor our clients to fill those gaps\n"
                       }
                     </div>
                   </p.Stack>
@@ -176,114 +174,43 @@ function PlasmicWhyUs__RenderFunc(props) {
             />
 
             <div className={classNames(projectcss.all, sty.freeBox__fuJm2)}>
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__s9CRf)}
-                displayHeight={"auto"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"auto"}
-                loading={"lazy"}
-                src={{
-                  src: valuePriceScalepngXLb8To3Wt,
-                  fullWidth: 613,
-                  fullHeight: 352,
-                  aspectRatio: undefined,
-                }}
-              />
+              <div className={classNames(projectcss.all, sty.columns__lv0Ws)}>
+                <div className={classNames(projectcss.all, sty.column___8OsXy)}>
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img__qrtG4)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: valuePriceScalepngXLb8To3Wt,
+                      fullWidth: 613,
+                      fullHeight: 352,
+                      aspectRatio: undefined,
+                    }}
+                  />
+                </div>
+
+                <div className={classNames(projectcss.all, sty.column___2ACH)}>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__a9Dx3
+                    )}
+                  >
+                    {
+                      "We are good value\n\nWe are more cost effective than global/major consulting firms\n\nWe offer substantial senior team involvement in projects execution\n\nAbility – and price point – to deliver client value for both strategic and implementation engagements\n"
+                    }
+                  </div>
+                </div>
+              </div>
             </div>
           </section>
-
-          <div
-            data-plasmic-name={"companiesSection"}
-            data-plasmic-override={overrides.companiesSection}
-            className={classNames(projectcss.all, sty.companiesSection)}
-          >
-            <p.Stack
-              as={"div"}
-              data-plasmic-name={"container2"}
-              data-plasmic-override={overrides.container2}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.container2)}
-            >
-              <h2
-                className={classNames(
-                  projectcss.all,
-                  projectcss.h2,
-                  projectcss.__wab_text,
-                  sty.h2__w1OHy
-                )}
-              >
-                {"We work with Brands"}
-              </h2>
-
-              <div className={classNames(projectcss.all, sty.freeBox__w3OYy)}>
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__ju6Fw)}
-                >
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__aUQm)}
-                    displayHeight={"48px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    src={
-                      "https://plasmic-ray.s3.us-west-2.amazonaws.com/logo-strapi.svg"
-                    }
-                  />
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__qi6Zu)}
-                    displayHeight={"48px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    src={
-                      "https://plasmic-ray.s3.us-west-2.amazonaws.com/logo-segment.svg"
-                    }
-                  />
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__fMLjk)}
-                    displayHeight={"48px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    src={
-                      "https://plasmic-ray.s3.us-west-2.amazonaws.com/logo-xstate.svg"
-                    }
-                  />
-
-                  <p.PlasmicImg
-                    alt={""}
-                    className={classNames(sty.img__w6YfT)}
-                    displayHeight={"48px"}
-                    displayMaxHeight={"none"}
-                    displayMaxWidth={"none"}
-                    displayMinHeight={"0"}
-                    displayMinWidth={"0"}
-                    displayWidth={"auto"}
-                    src={
-                      "https://plasmic-ray.s3.us-west-2.amazonaws.com/logo-mapbox.svg"
-                    }
-                  />
-                </p.Stack>
-              </div>
-            </p.Stack>
-          </div>
 
           <CtaBottom
             data-plasmic-name={"ctaBottom"}
@@ -309,11 +236,9 @@ const PlasmicDescendants = {
     "pageBanerSection",
     "h1",
     "section",
-    "columns",
+    "h2",
     "textInput",
     "textbox",
-    "companiesSection",
-    "container2",
     "ctaBottom",
     "footer",
   ],
@@ -321,11 +246,9 @@ const PlasmicDescendants = {
   header: ["header"],
   pageBanerSection: ["pageBanerSection", "h1"],
   h1: ["h1"],
-  section: ["section", "columns", "textInput", "textbox"],
-  columns: ["columns"],
+  section: ["section", "h2", "textInput", "textbox"],
+  h2: ["h2"],
   textInput: ["textInput", "textbox"],
-  companiesSection: ["companiesSection", "container2"],
-  container2: ["container2"],
   ctaBottom: ["ctaBottom"],
   footer: ["footer"],
 }
@@ -368,10 +291,8 @@ export const PlasmicWhyUs = Object.assign(
     pageBanerSection: makeNodeComponent("pageBanerSection"),
     h1: makeNodeComponent("h1"),
     section: makeNodeComponent("section"),
-    columns: makeNodeComponent("columns"),
+    h2: makeNodeComponent("h2"),
     textInput: makeNodeComponent("textInput"),
-    companiesSection: makeNodeComponent("companiesSection"),
-    container2: makeNodeComponent("container2"),
     ctaBottom: makeNodeComponent("ctaBottom"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicWhyUs
